@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Task Managers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h1>Tracker</h1>
+
+
+      </nav>
+      <div class="hero">
+        <div class="main">
+          <form action="#">
+<div class="head-line">
+  <p class="W-D">Deposit</p>  
+  <h1>5960.00<span style="font-size: 1.5vmin;"><i>INR</i></span></h1>
+</div>
+            <label for="amount">Amount</label>
+            <input
+              type="number"
+              name="amount"
+              class="form-amount"
+              id="amount"
+              placeholder="00 INR"
+              maxlength="8"
+            />
+            <label for="note">Note</label>
+            <input
+              type="text"
+              name="note"
+              class="form-note"
+              id="note"
+              placeholder="Note goes here"
+            />
+            <div class="btn-container">
+              <button type="submit" class="add-deposit">Add</button>
+              <button type="reset">Reset</button>
+            </div>
+          </form>
+        </div>
+        <div class="aside">
+          <div class="tile calculator">
+            <span class="material-symbols-outlined">
+            calculate
+            </span>
+          </div>
+          <div class="tile calender">
+            <span class="material-symbols-outlined">
+              calendar_month
+              </span>
+          </div>
+          <div class="tile see-all">
+            <span class="material-symbols-outlined">
+              description
+              </span>
+          </div>
+          <div class="tile FAQ">
+            <span class="material-symbols-outlined">
+              help
+              </span>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <h2>Recent Records</h2>
+      <div class="hr"></div>
+      <div class="t-head">
+        <div class="boxes boxes-note">Note</div>
+        <div class="boxes">Date</div>
+        <div class="boxes">Time</div>
+        <div class="boxes">Type</div>
+        <div class="boxes">Amount</div>
+      </div>
+      <div class="t-body">
+        <div class="row-line">
+          <div class="boxes boxes-note">A lorem note</div>
+          <div class="boxes">12 oct 2023</div>
+          <div class="boxes">08:42 PM</div>
+          <div class="boxes boxes-type">Deposit</div>
+          <div class="boxes green boxes-amount">954.52 INR</div>
+        </div>
+        <div class="row-line">
+          <div class="boxes boxes-note">A lorem note</div>
+          <div class="boxes">12 oct 2023</div>
+          <div class="boxes">08:42 PM</div>
+          <div class="boxes boxes-type">Witdrawl</div>
+          <div class="boxes red boxes-amount">954.52 INR</div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="pop-wrapper">
+      <div class="pop-up">
+        <h2>Pop up title here</h2>
+          <p>
+            Are you sure to add?
+          </p>
+
+            <button class="pop-ok">Ok</button>
+
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
