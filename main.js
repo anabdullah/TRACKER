@@ -153,3 +153,24 @@ minimizer.onclick = () => {
 
   }
 }
+
+
+// ------------------------calculator functioning------------------------------//
+let resultSreen= selector("result-screen");
+let historySreen= selector("history-screen");
+let c = selector("c")
+let AC = selector("ac")
+
+function display(e){
+  resultSreen.innerHTML+=e
+}
+
+AC.onclick=()=>{
+  historySreen.innerHTML=''
+  resultSreen.innerHTML=''
+}
+
+function equal(){
+  historySreen.innerHTML= resultSreen.innerHTML;
+  resultSreen.innerHTML=eval( resultSreen.innerHTML)
+}
