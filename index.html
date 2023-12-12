@@ -94,32 +94,32 @@
     <div class="calculator-screen">
       <div class="calc-bar">Calculator</div>
       <div class="screen">
-        <div class="history-screen">56+95-12.56</div>
-        <div class="result-screen">95864</div>
+        <div class="history-screen"></div>
+        <div class="result-screen"></div>
       </div>
       <div class="calc-body">
         <div class="calc-dialpad">
-          <div class="calc-button">1</div>
-          <div class="calc-button">2</div>
-          <div class="calc-button">3</div>
-          <div class="calc-button operator">+</div>
-          <div class="calc-button">4</div>
-          <div class="calc-button">5</div>
-          <div class="calc-button">6</div>
-          <div class="calc-button operator">-</div>
-          <div class="calc-button">7</div>
-          <div class="calc-button">8</div>
-          <div class="calc-button">9</div>
-          <div class="calc-button operator">X</div>
-          <div class="calc-button">.</div>
-          <div class="calc-button">0</div>
-          <div class="calc-button operator">=</div>
-          <div class="calc-button operator">/</div>
+          <div class="calc-button" onclick="display(1)">1</div>
+          <div class="calc-button" onclick="display(2)">2</div>
+          <div class="calc-button" onclick="display(3)">3</div>
+          <div class="calc-button operator" onclick="display('+')">+</div>
+          <div class="calc-button" onclick="display(4)">4</div>
+          <div class="calc-button" onclick="display(5)">5</div>
+          <div class="calc-button" onclick="display(6)">6</div>
+          <div class="calc-button operator" onclick="display('-')">-</div>
+          <div class="calc-button" onclick="display(7)">7</div>
+          <div class="calc-button" onclick="display(8)">8</div>
+          <div class="calc-button" onclick="display(9)">9</div>
+          <div class="calc-button operator" onclick="display('*')">X</div>
+          <div class="calc-button" onclick="display('.')">.</div>
+          <div class="calc-button" onclick="display(0)">0</div>
+          <div class="calc-button operator" onclick="equal()">=</div>
+          <div class="calc-button operator" onclick="display('/')">/</div>
         </div>
         <div class="calc-meta">
           <div class="calc-end mi minimize-calc">Minimize</div>
-          <div class="calc-end calc-button">AC</div>
-          <div class="calc-end calc-button">C</div>
+          <div class="calc-end calc-button ac" >AC</div>
+          <div class="calc-end calc-button c">C</div>
         </div>
       </div>
     </div>
